@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <cjh.WaveProgressBarlibrary.WaveProgressBar
+        android:id="@+id/waveProgressbar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        app:behind_wave_color="#01A1D6"
+        app:front_wave_color="#9DD8ED"
+        app:arc_color="#fff"
+        app:cavans_bg="#fff"
+        app:text_follow_progress="true"
+        app:progress="70"
+        app:shape="circle"
+        app:text_size="20sp" />
+
+</RelativeLayout>
